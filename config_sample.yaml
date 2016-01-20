@@ -1,0 +1,15 @@
+certfile: {absolute_path_to_certificate_file}
+
+masquerade_address: {public_ip_of_ftps_server}
+
+user:
+    - details:
+        username: {username}
+        password: {password}
+        home_directory: {absolute_path_to_home_directory}
+        permission: {permission-see-instruction-no-3-in-readme}
+    - details:
+        username: {username}
+        password: {password}
+        home_directory: {absolute_path_to_home_directory}
+        permission: {permission-see-instruction-no-3-in-readme}
