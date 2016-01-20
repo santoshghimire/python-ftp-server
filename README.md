@@ -4,6 +4,7 @@ Simple ftps server in python using pyftpdlib
 ## PRE-INSTALLATION INSTRUCTIONS
 
 Before installing anything, follow these steps:
+
 1.  Rename config_sample.yaml file inside the source directory to config.yaml
 
 2.  Change a few things in the config.yaml file.
