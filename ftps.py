@@ -52,6 +52,9 @@ class S3Upload():
         print('done')
         
     def percent_cb(self, complete, total):
+        """
+        Method that displays the percent completed of the upload.
+        """
         sys.stdout.write('.')
         sys.stdout.flush()
 
